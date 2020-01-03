@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Upload binary to S3 miniature-octo-barnacle bucket
-    - uses: tpaschalis/s3-sync-action@master
+      uses: tpaschalis/s3-sync-action@master
       with:
         args: --acl public-read --exclude '.git/*'
       env:
