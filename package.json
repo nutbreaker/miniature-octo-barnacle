@@ -1,0 +1,22 @@
+{
+  "name": "@nutbreaker/miniature-octo-barnacle",
+  "version": "0.0.1",
+  "description": "GitHub actions & packages",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nutbreaker/miniature-octo-barnacle.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/nutbreaker/miniature-octo-barnacle/issues"
+  },
+  "homepage": "https://github.com/nutbreaker/miniature-octo-barnacle#readme"
+}
