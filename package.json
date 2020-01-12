@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "scripts": {
+    "build": "parcel build app.js --out-file miniatureOctoBarnacle.js --public-url ./",
+    "dev": "parcel index.html",
+    "prepublish": "rimraf dist && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
