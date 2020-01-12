@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "GitHub actions & packages",
   "main": "app.js",
+  "files": [
+    "dist/*"
+  ],
   "author": "",
   "license": "ISC",
   "scripts": {
